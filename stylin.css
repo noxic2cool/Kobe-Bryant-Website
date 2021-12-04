@@ -1,0 +1,99 @@
+/* header properties */
+header  {
+    background-color: #FDB927;
+    border-radius: 3px;
+    height: 60px;
+    word-spacing: 15px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+header h1   {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+}
+
+header a    {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link{
+    color: black;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.titl  {
+    word-spacing: 0;
+    font-size: 20px;
+}
+
+.mp {
+    word-spacing: 0;
+}
+
+/* body properties */
+body{
+    background-color: black;
+}
+
+/* section properties */
+section    {
+    background-color: #FDB927;
+    width: 100%;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    border-radius: 3px;
+}
+
+section .creds  {
+    font-size: 12px;
+    text-align: left;
+}
+
+section .creds a:link{
+    color: black;
+}
+
+section .creds a:visited{
+    color: black;
+}
+
+section img {
+    height: 270px;
+    width: 200px;
+    display: block;
+    margin-left: 12px;
+    float: left;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+section .info   {
+    font-size: 14px;
+}
+
+section p  {
+    text-align: center;
+}
+
+/* footer properties */
+footer p{
+    color: #FDB927;
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+}
+
+footer a{
+    color: #FDB927;
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+}
